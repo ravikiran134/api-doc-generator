@@ -1,4 +1,4 @@
-package com.signitives.teamslate.controller;
+package com.test.teamslate.controller;
 
 import java.security.Principal;
 import java.time.LocalDateTime;
