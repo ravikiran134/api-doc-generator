@@ -1,4 +1,4 @@
-package com.test.teamslate.controller;
+package com.test.controller;
 
 import java.security.Principal;
 import java.time.LocalDateTime;
