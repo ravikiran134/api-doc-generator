@@ -24,14 +24,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.signitives.teamslate.dto.LoginRequestDTO;
-import com.signitives.teamslate.dto.ProjectSummaryDTO;
-import com.signitives.teamslate.dto.RegistrationRequestDTO;
-import com.signitives.teamslate.entity.InviteToken;
-import com.signitives.teamslate.entity.Project;
-import com.signitives.teamslate.entity.User;
-import com.signitives.teamslate.service.impl.UserServiceImpl;
-import com.signitives.teamslate.service.interfaces.UserService;
+import com.test.dto.LoginRequestDTO;
+import com.test.dto.ProjectSummaryDTO;
+import com.test.dto.RegistrationRequestDTO;
+import com.test.entity.InviteToken;
+import com.test.entity.Project;
+import com.test.entity.User;
+import com.test.service.impl.UserServiceImpl;
+import com.test.service.interfaces.UserService;
 
 import jakarta.servlet.http.HttpServletRequest;
 
