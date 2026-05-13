@@ -52,13 +52,17 @@ See [`output/UserController.md`](output/UserController.md) for full sample outpu
 
 ## Architecture
 
+## Architecture
+
+```
 ┌──────────────────┐     HTTP POST      ┌─────────────────┐
 │  Python Script   │ ─────────────────> │  Ollama Service │
 │ generate_docs.py │   localhost:11434  │  qwen2.5-coder  │
 └──────────────────┘ <───────────────── └─────────────────┘
-│            Generated Markdown
-▼
-output/*.md
+        │            Generated Markdown
+        ▼
+   output/*.md
+```
 
 **Service-oriented design:** The Python application is decoupled from the LLM backend via HTTP. The same code can target local Ollama, Claude API, OpenAI, or any LLM service by changing one endpoint.
 
@@ -153,7 +157,7 @@ This tool uses a small local LLM (3B parameters), which has trade-offs:
 **Leo (Ravi Kiran)** - Senior Software Engineer  
 Exploring practical AI integration in developer workflows.
 
-[GitHub](https://github.com/ravikiran134) · [LinkedIn](https://linkedin.com)
+[GitHub](https://github.com/ravikiran134) · [LinkedIn](https://www.linkedin.com/in/ravi-kiran-thalluri)
 
 ## License
 
